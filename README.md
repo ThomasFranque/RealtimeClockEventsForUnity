@@ -55,7 +55,7 @@ SavedTime triggerTime = new SavedTime(hours24: 17);
 If we wanted our Zombie Santa saved time, that should look like this:
 
 ```cs
-SavedTime zombieSantaTime = new SavedTime(minutes: 30, hours24: 20, month: 12);
+SavedTime zombieSantaTime = new SavedTime(minutes: 30, hours24: 22, month: 12);
 ```
 
 ### Choosing the right `EventRepetitionType` Enum
@@ -63,7 +63,7 @@ SavedTime zombieSantaTime = new SavedTime(minutes: 30, hours24: 20, month: 12);
 `EventRepetitionType` is used by the event system to determine when it should
 try to trigger events, if we want something to happen every Year we pass the
 `EventRepetitionType.Every_Year` which would only activate once on the first day
-January of each year at 00:00:00, therefore if you set a month, hour, minute etc...
+January of each year at 00h:00m:00s, therefore if you set a month, hour, minute, etc
 that is not 00h:00m:00s on January 1st, it wont trigger.
 
 When choosing which one to use for an event, always look for the lowest parameter
