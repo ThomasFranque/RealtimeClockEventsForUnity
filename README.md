@@ -15,7 +15,7 @@ Or is it?
 Fear not, got you covered, just tell your problems my good old friend
 Clock Event Manager and it will call you when it's showtime.
 
-Easily add events using [C# Actions](https://docs.microsoft.com/en-us/dotnet/api/system.action-1?view=netframework-4.8) to a main event manager.
+Easily add realtime events using [C# Actions](https://docs.microsoft.com/en-us/dotnet/api/system.action-1?view=netframework-4.8) to a main event manager.
 
 ## How to install
 
