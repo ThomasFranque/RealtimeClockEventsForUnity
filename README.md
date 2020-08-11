@@ -2,7 +2,7 @@
 
 This pack can be used to have real-time events in unity!
 
-Sample project: Soon
+Sample project: Between Soon and Never
 
 ## What is this for
 
